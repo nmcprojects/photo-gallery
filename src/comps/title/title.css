@@ -1,0 +1,28 @@
+.title h2, .title p {
+    text-align: center;
+}
+
+.title h2{
+    margin-top: 2.7rem;
+    font-size: 2.6rem;
+}
+
+.quote-wrap {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.quote-wrap .quote {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-wrap .author {
+    font-size: 1.2rem;
+    color: var(--text);
+    font-weight: 400;
+    text-align: right;
+    margin-right: 10%;
+}

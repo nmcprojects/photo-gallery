@@ -1,0 +1,14 @@
+.btn {
+    color: var(--primary);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:active {
+    opacity: 0.7;
+}

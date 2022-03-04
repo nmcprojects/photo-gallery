@@ -1,0 +1,33 @@
+
+/* Begin: Image Zoomable */
+.img-zoomable {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: zoom-in;
+    overflow: hidden;
+}
+  
+.img-zoomable_item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transform-origin: 0 0;
+    display: none;
+    pointer-events: none;
+}
+
+.img-zoomable--active .img-zoomable_item {
+    display: block;
+}
+  
+.img-zoomable img {
+    width: 100%;
+}
+/* End: Image Zoomable */
