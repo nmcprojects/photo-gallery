@@ -6,10 +6,9 @@ const Image = ({url}) => {
   return (
     <div>
         <motion.a
-            href={url} 
+            href={`${url}&dl=`} 
             download
             onClick={(e) => {
-                console.log(1)
                 e.stopPropagation();
             }}
             className="download-image"
